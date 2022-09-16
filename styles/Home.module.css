@@ -127,3 +127,19 @@
     filter: invert(1);
   }
 }
+
+.image_circle {
+  border-radius:50%;
+  object-fit: cover;
+  text-align : center ;
+}
+
+.img_position{
+  text-align: center;
+  height:420px;
+  background-color: #0c86d8;
+}
+.space_position{
+  height:30px;
+  background-color: #0c86d8;
+}
