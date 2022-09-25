@@ -1,0 +1,30 @@
+.sideline{
+    border-left:5px solid #c9e2ed; /*線の設定*/
+    padding-left: 8px;
+    position: absolute;
+    left: 40px;
+}
+
+.content {
+    position: relative;
+    left: -40px;
+    margin-left: 12px;
+    padding-left: 8px;
+    list-style:url(../public/fish.png);
+}
+
+.date_area {
+    position: relative;
+    width: 105px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    text-align: center;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    border-radius: 30em;
+    color: rgb(255, 255, 255);
+    background-color: #778189;
+    display:table-cell;
+  vertical-align:middle;
+}

@@ -1,0 +1,95 @@
+.image_circle {
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.img_position {
+    text-align: center;
+    height: 420px;
+    background-color: #FFA500;
+}
+
+.space_position {
+    height: 20px;
+    background-color: #FFA500;
+}
+
+.icon_position {
+    text-align: center;
+}
+
+.image_circle_github {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image_circle_twitter {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image_circle_note {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image_circle_qiita {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about_area {
+    margin-top: 0px;
+    background-color: black;
+    color: #f3ecec;
+    padding-left: 30px;
+}
+
+.activity_area {
+    text-align: center;
+}
+
+.timeline {
+    list-style: none;
+    text-justify: inter-character;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.content {
+    left: 30px;
+}
+
+.content_li::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #343a40;
+    position: absolute;
+    left: 30px;
+    top: 800px;
+    border-radius: 100%;
+}
+
+.content_li {
+    width: 90%;
+    float: left;
+    border-left: 3px solid #6c757d;
+    margin-left: 4px;
+    padding-left: 30px;
+}
+
+.date_small {
+    width: 100px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-radius: 10rem;
+    color: #fff;
+    background-color: #778189;
+}
+
+.text_rule {}
