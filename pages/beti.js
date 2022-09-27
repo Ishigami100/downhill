@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from '../styles/Home.module.css'
-import styles2 from '../styles/Sen.module.css'//各自のcssに切り替え
+import styles from "../styles/Home.module.css";
+import styles2 from "../styles/Menber1.module.css"; //各自のcssに切り替え
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
           {
             //This is github icon.You put github's link.
           }
-          <a charset="UTF-8" href="https://www.△△△.jp/">
+          <a charset="UTF-8" href="https://github.com/kamlab-betio/">
             <Image
               src="/github.png" //各自のアイコン画像
               width={35}
@@ -49,7 +49,7 @@ export default function Home() {
           {
             //This is note icon.You put note's link.
           }
-          <a charset="UTF-8" href="https://www.△△△.jp/">
+          <a charset="UTF-8" href="https://note.com/betio/">
             <Image
               src="/note.png" //各自のアイコン画像
               width={35}
@@ -61,7 +61,7 @@ export default function Home() {
           {
             //This is qiita icon.You put qiita's link.
           }
-          <a charset="UTF-8" href="https://www.△△△.jp/">
+          <a charset="UTF-8" href="https://qiita.com/betio">
             <Image
               src="/qiita.png" //各自のアイコン画像
               width={35}
@@ -74,11 +74,22 @@ export default function Home() {
       <div className={styles2.about_area}>
         <br></br>
         <br></br>
-        <h1>About me mm</h1>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        <div className={styles2.activity_area}>
+          <h1>About me</h1>
+          所属：東京電機大学 理工学部 情報システムデザイン学系
+          IoE/M2Mソリューション研究室
+          <br></br>
+          研究：UAVと衛星画像を用いた災害対策車による災害把握システムの構築
+          <br></br>
+          <br></br>
+          情報学を専攻しながら、オナーズプログラム(宇宙工学)に参加しています。
+          <br></br>
+          <br></br>
+          よく使う言語は Python
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
       </div>
       <div>
         <br></br>
@@ -88,7 +99,7 @@ export default function Home() {
             <div className={styles2.content_li}>
               <div className={styles2.date_small}>2019年4月</div>
               <h2 className={styles2.text_rule}>
-                東京電機大学理工学部情報システムデザイン学系 入学
+                東京電機大学 理工学部 情報システムデザイン学系 入学
               </h2>
             </div>
           </li>
