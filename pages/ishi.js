@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>portfolio-betio</title>
+        <title>portfolio-Ishigami</title>
       </Head>
       <div className={styles2.space_position}></div>
       <div className={styles2.img_position}>
         <Image
-          src="/betio.jpeg" //各自のアイコン画像
+          src="/ishigami.png" //各自のアイコン画像
           width={250}
           height={250}
           className={styles.image_circle}
@@ -20,12 +20,12 @@ export default function Home() {
         <br></br>
         <br></br>
         student,engineer
-        <h2>Betio</h2>
+        <h2>Ishigami</h2>
         <div className={styles2.icon_position}>
           {
             //This is github icon.You put github's link.
           }
-          <a charset="UTF-8" href="https://www.△△△.jp/">
+          <a charset="UTF-8" href="https://github.com/Ishigami100">
             <Image
               src="/github.png" //各自のアイコン画像
               width={35}
@@ -49,7 +49,7 @@ export default function Home() {
           {
             //This is note icon.You put note's link.
           }
-          <a charset="UTF-8" href="https://www.△△△.jp/">
+          <a charset="UTF-8" href="https://note.com/ishigami100">
             <Image
               src="/note.png" //各自のアイコン画像
               width={35}
@@ -61,7 +61,7 @@ export default function Home() {
           {
             //This is qiita icon.You put qiita's link.
           }
-          <a charset="UTF-8" href="https://www.△△△.jp/">
+          <a charset="UTF-8" href="https://qiita.com/Ishigami100">
             <Image
               src="/qiita.png" //各自のアイコン画像
               width={35}
@@ -74,9 +74,11 @@ export default function Home() {
       <div className={styles2.about_area}>
         <br></br>
         <br></br>
-        <h1>About me mm</h1>
+        <h1>About me </h1>
         <br></br>
+        山奥エンジニア　専門はWeb,AR。
         <br></br>
+        よく使うプログラミング言語はC,Java,PHPなど。
         <br></br>
         <br></br>
       </div>
@@ -92,21 +94,19 @@ export default function Home() {
               </h2>
             </div>
           </li>
-
-          <li>
-            <div className={styles2.content_li_2}>
-              <div className={styles2.date_small}>2021年4月</div>
-              <h2 className={styles2.text_rule}>
-                オナーズプログラム(宇宙工学) 参加
-              </h2>
-            </div>
-          </li>
-
           <li>
             <div className={styles2.content_li_3}>
               <div className={styles2.date_small}>2022年4月</div>
               <h2 className={styles2.text_rule}>
                 IoE/M2Mソリューション研究室 所属
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div className={styles2.content_li_2}>
+              <div className={styles2.date_small}>2022年2月</div>
+              <h2 className={styles2.text_rule}>
+              Open Hack U 2021 Online Vol.3 参加
               </h2>
             </div>
           </li>
@@ -116,6 +116,14 @@ export default function Home() {
               <div className={styles2.date_small}>2022年8月</div>
               <h2 className={styles2.text_rule}>
                 PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ（東京）参加
+              </h2>
+            </div>
+          </li>
+          <li>
+            <div className={styles2.content_li_2}>
+              <div className={styles2.date_small}>2022年8月</div>
+              <h2 className={styles2.text_rule}>
+              OpenHackU 2022 Tokyo 参加
               </h2>
             </div>
           </li>
