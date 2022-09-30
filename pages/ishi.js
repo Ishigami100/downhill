@@ -80,6 +80,7 @@ export default function Home() {
         <br></br>
         よく使うプログラミング言語はC,Java,PHPなど。
         <br></br>
+        最近は音声制御をやってみたいと思ってる。
         <br></br>
       </div>
       <div>
@@ -116,6 +117,8 @@ export default function Home() {
               <div className={styles2.date_small}>2022年8月</div>
               <h2 className={styles2.text_rule}>
                 PLATEAU Hack Challenge 2022 in ヒーローズ・リーグ（東京）参加
+                <br></br>
+                <a charset="UTF-8" href="https://protopedia.net/prototype/3207">--成果はこちらのリンクから--</a>
               </h2>
             </div>
           </li>
